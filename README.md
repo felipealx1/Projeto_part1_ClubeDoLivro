@@ -15,8 +15,8 @@
 
 <h2>Linguagens e Ferramentas Utilizadas</h2>
 <ul>
-    <li><strong>Java</strong> (versão 11 ou superior)</li>
-    <li><strong>Spring Boot</strong> (versão 2.7.x)</li>
+    <li><strong>Java</strong> (versão 17 ou superior)</li>
+    <li><strong>Spring Boot</strong></li>
     <li><strong>Maven</strong> para gerenciamento de dependências</li>
     <li><strong>JPA/Hibernate</strong> para ORM (Mapeamento Objeto-Relacional)</li>
     <li><strong>MySQL</strong> como banco de dados relacional</li>
@@ -26,16 +26,16 @@
 
 <h3>1. Funcionalidades de Cadastro</h3>
 <ul>
-    <li>Registrar um novo cadastro (usuário)</li>
-    <li>Buscar cadastro por ID</li>
-    <li>Atualizar cadastro por ID</li>
+    <li>Registrar um novo cadastro de usuário</li>
+    <li>Buscar usuário por ID</li>
+    <li>Atualizar usuário por ID</li>
 </ul>
 
-<h4>Rotas de Cadastro</h4>
+<h4>Endpoints de Usuário</h4>
 <ul>
-    <li><strong>POST /cadastros</strong> - Registra um novo cadastro</li>
-    <li><strong>GET /cadastros/{id}</strong> - Busca um cadastro específico por ID</li>
-    <li><strong>PUT /cadastros/{id}</strong> - Atualiza os dados de um cadastro específico</li>
+    <li><strong>POST /user</strong> - Registra um novo usuário</li>
+    <li><strong>GET /user/{id}</strong> - Busca um usuário específico por ID</li>
+    <li><strong>PUT /user/{id}</strong> - Atualiza os dados de um usuário específico</li>
 </ul>
 
 <h3>2. Funcionalidades de Livro</h3>
@@ -63,6 +63,7 @@
 <h3>Requisitos</h3>
 <ul>
     <li>Java 17 ou superior</li>
+    <li>SpringBoot</li>
     <li>Maven</li>
     <li>MySQL como banco de dados</li>
 </ul>
